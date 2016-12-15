@@ -30,6 +30,9 @@ public class TestSteps {
 		dr.manage().window().maximize();
 		dr.get(url);*/
 		
+		//Comentario desde maquina de walter
+		
+		
 		File src = new File("/var/lib/jenkins/phantomjs-2.1.1/bin/phantomjs");
 		System.setProperty("phantomjs.binary.path", src.getAbsolutePath());
 		dr = new PhantomJSDriver();
