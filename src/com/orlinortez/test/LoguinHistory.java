@@ -27,7 +27,7 @@ import static org.jbehave.core.reporters.Format.CONSOLE;
 import static org.jbehave.web.selenium.WebDriverHtmlOutput.WEB_DRIVER_HTML;
 
 
-//@RunWith(JUnitReportingRunner.class)
+@RunWith(JUnitReportingRunner.class)
 public class LoguinHistory extends JUnitStory {
 
 	@Override
