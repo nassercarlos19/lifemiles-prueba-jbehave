@@ -16,7 +16,6 @@ import org.junit.Assert;
 
 import com.orlinortez.test.Step;
 
-@Step
 public class TestSteps {
 
 	@Autowired
