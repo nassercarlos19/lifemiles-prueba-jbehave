@@ -18,7 +18,7 @@ import com.orlinortez.test.Step;
 
 public class TestSteps {
 
-	@Autowired
+	//@Autowired
 	WebDriver dr;
 
 	@Given("I go to \"$url\"")
