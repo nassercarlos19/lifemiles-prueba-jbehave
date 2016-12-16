@@ -29,7 +29,7 @@ public class TestSteps {
 		dr.manage().window().maximize();
 		dr.get(url);*/
 		
-		//Comentario desde maquina de walter
+		//Comentario desde maquina de walter 2
 		
 		
 		File src = new File("/var/lib/jenkins/phantomjs-2.1.1/bin/phantomjs");
