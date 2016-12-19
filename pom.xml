@@ -4,31 +4,8 @@
 	<groupId>JBeHave_Pruebas</groupId>
 	<artifactId>JBeHave_Pruebas</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<build>
-		<sourceDirectory>src</sourceDirectory>
-		<resources>
-			<resource>
-				<directory>src</directory>
-				<excludes>
-					<exclude>**/*.java</exclude>
-				</excludes>
-			</resource>
-		</resources>
-
-	</build>
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<serenity.version>1.1.38</serenity.version>
-		<serenity.maven.version>1.1.38</serenity.maven.version>
-		<webdriver.driver>chrome</webdriver.driver>
-
-		<embeddables>**/LoguinHistory.java</embeddables>
-		<ignore.failure.in.stories>true</ignore.failure.in.stories>
-		<meta.filter></meta.filter>
-		<threads>2</threads>
-		<story.timeout.in.secs>350</story.timeout.in.secs>
-	</properties>
-
+	
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.jbehave</groupId>
