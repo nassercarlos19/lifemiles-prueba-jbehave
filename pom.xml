@@ -19,7 +19,6 @@
 			<classifier>resources</classifier>
 			<type>zip</type>
 		</dependency>
-
 		<dependency>
 			<groupId>net.serenity-bdd</groupId>
 			<artifactId>core</artifactId>
