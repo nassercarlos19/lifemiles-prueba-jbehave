@@ -95,7 +95,20 @@
 			<version>19.0</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/de.codecentric/jbehave-junit-runner -->
+		<dependency>
+			<groupId>de.codecentric</groupId>
+			<artifactId>jbehave-junit-runner</artifactId>
+			<version>1.2.0</version>
+		</dependency>
 
+
+		<!-- https://mvnrepository.com/artifact/org.jbehave/jbehave -->
+		<dependency>
+			<groupId>org.jbehave</groupId>
+			<artifactId>jbehave</artifactId>
+			<version>4.1</version>
+		</dependency>
 
 	</dependencies>
 	<build>
