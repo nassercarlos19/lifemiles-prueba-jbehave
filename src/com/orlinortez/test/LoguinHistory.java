@@ -38,6 +38,13 @@ public class LoguinHistory extends JUnitStory {
 	}
 
 	public Configuration configuration() {
+		  return new MostUsefulConfiguration()
+          // where to find the stories
+          .useStoryLoader(new LoadFromClasspath(this.getClass()))
+                  // CONSOLE and TXT reporting
+          .useStoryReporterBuilder(new StoryReporterBuilder().withDefaultFormats().withFormats(StoryReporterBuilder.Format.CONSOLE, StoryReporterBuilder.Format.TXT, StoryReporterBuilder.Format.HTML, StoryReporterBuilder.Format.XML));
+		  
+		  
 		CrossReference crossReference = new CrossReference().withJsonOnly()
 				.withOutputAfterEachStory(true)
 				.excludingStoriesWithNoExecutedScenarios(true);

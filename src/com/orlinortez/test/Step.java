@@ -29,5 +29,4 @@ public @interface Step {
    * @return the suggested component name, if any
    */
   String value() default "";
-
 }

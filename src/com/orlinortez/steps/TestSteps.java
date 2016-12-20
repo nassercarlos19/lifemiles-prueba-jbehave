@@ -16,7 +16,7 @@ import org.junit.Assert;
 
 import com.orlinortez.test.Step;
 
-@Step
+RunWith(JeBehave.class)
 public class TestSteps {
 
 	//@Autowired
