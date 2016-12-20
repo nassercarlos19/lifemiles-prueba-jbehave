@@ -33,12 +33,17 @@
 			<classifier>resources</classifier>
 			<type>zip</type>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.jbehave.site/jbehave-site-resources
+		<!-- https://mvnrepository.com/artifact/org.jbehave.site/jbehave-site-resources 
+			<dependency> <groupId>org.jbehave.site</groupId> <artifactId>jbehave-site-resources</artifactId> 
+			<version>3.3</version> </dependency> -->
+
+		<!-- https://mvnrepository.com/artifact/org.jbehave.site/jbehave-site-resources -->
 		<dependency>
 			<groupId>org.jbehave.site</groupId>
 			<artifactId>jbehave-site-resources</artifactId>
-			<version>3.3</version>
-		</dependency> -->
+			<version>2.0.2</version>
+		</dependency>
+
 
 		<dependency>
 			<groupId>org.slf4j</groupId>
