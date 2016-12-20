@@ -5,14 +5,14 @@
 	<artifactId>JBeHave_Pruebas</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	
-	<repositories>
+	<!--<repositories>
 		<repository>
 			<id>mvn-repository</id>
 			<name>Public online MVN repository</name>
 			<url>https://mvnrepository.com/</url>
 		</repository>
 	</repositories>
-	<!--  <build>
+	  <build>
 		<sourceDirectory>src</sourceDirectory>
 		<resources>
 			<resource>
