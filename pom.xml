@@ -4,7 +4,7 @@
 	<groupId>JBeHave_Pruebas</groupId>
 	<artifactId>JBeHave_Pruebas</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<build>
+	<!--  <build>
 		<sourceDirectory>src</sourceDirectory>
 		<resources>
 			<resource>
@@ -15,7 +15,7 @@
 			</resource>
 		</resources>
 
-	</build>
+	</build>-->
 
 	<dependencies>
 		<dependency>
@@ -31,7 +31,6 @@
 			<classifier>resources</classifier>
 			<type>zip</type>
 		</dependency>
-
 		<!-- https://mvnrepository.com/artifact/org.jbehave.site/jbehave-site-resources -->
 		<dependency>
 			<groupId>org.jbehave.site</groupId>
