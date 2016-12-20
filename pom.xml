@@ -39,12 +39,12 @@
 			<classifier>resources</classifier>
 			<type>zip</type>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.jbehave.site/jbehave-site-resources 
+		<!-- https://mvnrepository.com/artifact/org.jbehave.site/jbehave-site-resources --> 
 		<dependency>
 			<groupId>org.jbehave.site</groupId>
 			<artifactId>jbehave-site-resources</artifactId>
 			<version>3.3</version>
-		</dependency> -->
+		</dependency> 
 
 		<dependency>
 			<groupId>org.slf4j</groupId>
