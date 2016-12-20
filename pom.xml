@@ -132,6 +132,7 @@
 					<includes>
 						<!--  <exclude>**/*LoguinHistory.java</exclude> 
 						<skipTests>${skipTests}</skipTests>-->
+						 <skipTests>true</skipTests>
 					</includes>
 				</configuration>
 			</plugin>
