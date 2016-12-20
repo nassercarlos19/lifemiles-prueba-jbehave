@@ -130,9 +130,7 @@
 				<version>2.19.1</version>
 				<configuration>
 					<includes>
-						<!--  <exclude>**/*LoguinHistory.java</exclude> 
-						<skipTests>${skipTests}</skipTests>-->
-						 <skipTests>true</skipTests>
+						<exclude>**/*LoguinHistory.java</exclude> 
 					</includes>
 				</configuration>
 			</plugin>
