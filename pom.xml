@@ -130,8 +130,8 @@
 				<version>2.19.1</version>
 				<configuration>
 					<includes>
-						<!-- <exclude>**/*LoguinHistory.java</exclude> -->
-						<include>**/*LoguinHistory.java</include> 
+						 <exclude>**/*LoguinHistory.java</exclude> 
+						<!-- <include>**/*LoguinHistory.java</include> --> 
 					</includes>
 				</configuration>
 			</plugin>
