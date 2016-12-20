@@ -4,26 +4,20 @@
 	<groupId>JBeHave_Pruebas</groupId>
 	<artifactId>JBeHave_Pruebas</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	
-	<!--<repositories>
+
+	<!--<repositories> <repository> <id>mvn-repository</id> <name>Public online 
+		MVN repository</name> <url>https://mvnrepository.com/</url> </repository> 
+		</repositories> <build> <sourceDirectory>src</sourceDirectory> <resources> 
+		<resource> <directory>src</directory> <excludes> <exclude>**/*.java</exclude> 
+		</excludes> </resource> </resources> </build> -->
+
+	<repositories>
 		<repository>
 			<id>mvn-repository</id>
 			<name>Public online MVN repository</name>
 			<url>https://mvnrepository.com/</url>
 		</repository>
 	</repositories>
-	  <build>
-		<sourceDirectory>src</sourceDirectory>
-		<resources>
-			<resource>
-				<directory>src</directory>
-				<excludes>
-					<exclude>**/*.java</exclude>
-				</excludes>
-			</resource>
-		</resources>
-
-	</build>-->
 
 	<dependencies>
 		<dependency>
@@ -39,12 +33,12 @@
 			<classifier>resources</classifier>
 			<type>zip</type>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.jbehave.site/jbehave-site-resources --> 
+		<!-- https://mvnrepository.com/artifact/org.jbehave.site/jbehave-site-resources
 		<dependency>
 			<groupId>org.jbehave.site</groupId>
 			<artifactId>jbehave-site-resources</artifactId>
 			<version>3.3</version>
-		</dependency> 
+		</dependency> -->
 
 		<dependency>
 			<groupId>org.slf4j</groupId>
