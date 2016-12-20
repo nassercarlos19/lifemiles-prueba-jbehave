@@ -131,7 +131,7 @@
 				<configuration>
 					<includes>
 						<!-- <exclude>**/*LoguinHistory.java</exclude> -->
-						<exclude>LoguinHistory.java</exclude> 
+						<include>LoguinHistory.java</include> 
 					</includes>
 				</configuration>
 			</plugin>
