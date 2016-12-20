@@ -175,7 +175,6 @@
 									<artifactId>jbehave-site-resources</artifactId>
 									<version>2.0.2</version>
 									<type>zip</type>
-									<outputDirectory> ${project.build.directory}/jbehave/view</outputDirectory>
 								</artifactItem>
 							</artifactItems>
 						</configuration>
@@ -194,8 +193,6 @@
 									<groupId>org.jbehave</groupId>
 									<artifactId>jbehave-core</artifactId>
 									<version>4.1</version>
-									<outputDirectory>${project.build.directory}/jbehave/view</outputDirectory>
-									<includes>**\/*.css,**\/*.ftl,**\/*.js</includes>
 								</artifactItem>
 							</artifactItems>
 						</configuration>
