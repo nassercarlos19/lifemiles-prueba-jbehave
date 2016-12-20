@@ -105,16 +105,16 @@
 		<dependency>
 			<groupId>org.jbehave</groupId>
 			<artifactId>jbehave-core</artifactId>
-			<version>4.0</version>
+			<version>4.1</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.jbehave/jbehave-spring -->
+		<!-- https://mvnrepository.com/artifact/org.jbehave/jbehave-spring 
 
 		<dependency>
 			<groupId>org.jbehave</groupId>
 			<artifactId>jbehave-spring</artifactId>
-			<version>4.0</version>
-		</dependency>
+			<version>4.1</version>
+		</dependency> -->
 
 
 
